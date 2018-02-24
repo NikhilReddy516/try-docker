@@ -18,13 +18,14 @@ Level 1: Containers & Images
     - Testing
     - Deployment
 
-- Imaage
+- Image
   - A blueprint for creating a container
   - Pre-built images available in Docker Store (and Docker Hub)
 
 - Running a container
   - `docker container run -p <host-port>:<container-port> <image>:<version>`
   - `-p`: publish ports
+  - `--detach`: make the container run in the background
 
 - Accessing a container
   - `docker container ls`
