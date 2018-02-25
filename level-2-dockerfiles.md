@@ -7,6 +7,7 @@ Level 2: Dockerfiles
 
 
 - Create Dockerfile
+
   ```
   FROM <base-image-name>:<version>
 
